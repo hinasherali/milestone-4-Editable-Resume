@@ -1,0 +1,109 @@
+body {
+    background-image: url('https://png.pngtree.com/background/20210711/original/pngtree-beautiful-technology-website-business-poster-background-template-picture-image_1107136.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(247, 242, 242);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(216, 211, 211);
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+    border: 2px solid rgb(177, 224, 138);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: rgb(29, 29, 123);
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+    color: rgb(20, 20, 21);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(65, 198, 114);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(66, 127, 42);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(5, 46, 46);
+}
+
+#resumeDisplay {
+    max-width: 500px;
+    min-height: 100vh;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+#resumeDisplay h2 {
+    color: rgb(66, 127, 42);
+}
+
+#resumeDisplay p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#downloadResume {
+    width: 100%;
+    padding: 10px;
+    background: rgb(28, 106, 171);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#downloadResume:hover {
+    background-color: rgb(17, 64, 101);
+}
+
+[contenteditable] {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    min-width: 100px;
+    border-radius: 4px;
+}
